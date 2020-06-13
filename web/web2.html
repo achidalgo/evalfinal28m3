@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situacion Global</title>
+    <!-- Enlace css -->
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="banner"></div>
+    <header>
+        <h1>CORONA VIRUS by GRUPO 2</h1>
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <a class="navbar-brand" href="#">Menú</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qsomos.html">Quienes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web1.html">Antecedentes</a></li>
+                    <li class="nav-item bg-danger"><a class="nav-link" href="web2.html">Situación Global</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web3.html">Situación en Chile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web4.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web5.html">Contacto</a></li>
+                </ul>
+                <div>
+                    <button class="btn btn-success"><a href="cierre.html">Log out</a></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h2><b>SITUACIÓN MUNDIAL: COVID-19 "DE VIRUS A PANDEMIA"</b></h2>
+        <br>
+        <h3><b>  El nuevo coronavirus podría "no irse nunca": La advertencia de la OMS sobre la posibilidad de que el SARS-CoV-2 se vuelva endémico</b></h3>
+        <main class="row">
+
+            <div class="col-6" aling="center">
+                <p>
+                    El nuevo coronavirus Sars-CoV-2, el causante de la enfermedad covid-19, tiene el potencial de convertirse en un virus endémico y "no irse nunca". Así lo indicó el director de Emergencias Sanitaras de la Organización Mundial de la Salud (OMS), Mike Ryan,
+                    al evaluar la posibilidad de que el patógeno siga el curso de otros virus que siguen activos en el mundo. "Es importante poner este asunto encima de la mesa: el virus podría convertirse en otro virus endémico en nuestras comunidades
+                    y estos virus pueden no irse nunca", dijo Ryan este miércoles.
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    Qué es un virus endémico, en lo que se podría convertir el coronavirus según la OMS (y qué ejemplos hay en el mundo) Por ello advirtió que no es prudente generar expectativas sobre una posible fecha futura que marque el fin de los contagios de covid-19,
+                    detectada por primera vez a fines de 2019 en China. "Creo que es importante que seamos realistas y no me parece que nadie pueda predecir cuándo desaparecerá la enfermedad", aseveró.
+                </p>
+
+
+            </div>
+
+        </main>
+
+        <main class="datos bg-primary text-white">
+            <h2 style="text-align: center;">PAÍSES CON MÁS AFECTADOS</h2>
+            <br>
+            <div class="row bg-primary">
+
+                <div class="col-12 col-md-6" style="display: inline;" width="100%">
+                    <div style="width: 50%;">
+                        <canvas id="myChart" width="150px" height="200px"></canvas>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <div class="col-12 col-md-6" aling="center">
+                    <p><b>SITUACIÓN A NIVEL GLOBAL</b> La enfermedad se propaga muy rápidamente comparada con otras pandemias recientes como la gripe A, que, entre 2009 y 2010, alcanzó 35.000 afectados. La epidemia, tras haberse paralizado en China, se ha
+                        extendido al resto del mundo, principalmente Europa, nuevo foco de la pandemia, y Estados Unidos.</p>
+                    <br>
+                    <p>Con más de dos millones de personas contagiadas y más de 113.000 fallecidas, EE.UU. es el país más afectado de mundo, seguido de Brasil, con más de 772.000 contagios. En tercer lugar se sitúa Rusia, con más de medio millón de afectados,
+                        mientras que el Reino Unido, India, España, e Italia rebasan la barrera de los 230.000. Perú, Alemania, Irán, Turquía y Francia, por su parte, superan ampliamente los 150.000 contagios, mientras que Chile, México, Arabia Saudí
+                        y Pakistán han superado también los cien mil contagiados.</p>
+                    <br>
+                    <p>Los desplazamientos en todo el mundo han sido cancelados mientras los negocios y la economía mundial han quedado paralizados, a excepción de las actividades consideradas esenciales. La rápida propagación del virus ha confinado a millones
+                        de personas en todo el planeta y ha obligado a imponer el distanciamiento social. Actualmente, los países de Europa empiezan sus respectivos y graduales procesos de desescalada, aunque a ritmos diferentes y sin un criterio común
+                        en la Unión Europea, que pone el horizonte más allá del verano.</p>
+                </div>
+
+        </main>
+
+    </section>
+    <script>
+        var ctx = document.getElementById('myChart');
+        var myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['EEUU', 'BRASIL', 'RUSIA', 'R.UNIDO', 'INDIA', 'ESPAÑA', 'ITALIA', 'PERÚ', 'FRANCIA', 'ALEMANIA', ],
+                datasets: [{
+                    label: 'Países Con Mas Afectados',
+                    data: [2000464, 772416, 493023, 291588, 276583, 242280, 235763, 208823, 192068, 186522],
+                    backgroundColor: [
+                        '#c00000',
+                        '#00ffff',
+                        '#D9F812',
+                        '#4DF812 ',
+                        '#F87012',
+                        '#f82cf8  ',
+                        '#6212F8 ',
+                        '#fe3d2c ',
+                        '#F4F6F7',
+                        '#ccff00 ',
+                    ],
+                    borderColor: [
+                        '#c00000',
+                        '#00ffff',
+                        '#D9F812',
+                        '#4DF812 ',
+                        '#F87012',
+                        '#f82cf8  ',
+                        '#6212F8 ',
+                        '#fe3d2c ',
+                        '#F4F6F7',
+                        '#ccff00 ',
+
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    <footer>
+        <p class="float-right ">
+            <a href="# ">Ir arriba &nbsp;</a>
+        </p>
+        <p>Copyright® by Grupo 2</p>
+    </footer>
+</body>
+
+</html>

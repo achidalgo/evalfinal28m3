@@ -1,0 +1,49 @@
+/*Propio de la web5*/
+
+.wrapper {
+    max-width: 800px;
+    min-width: 600px;
+    margin: auto;
+}
+
+#mytable {
+    background-color: white;
+    color: black;
+}
+
+form div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form .lindo {
+    width: 90px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+@media only screen and (max-width:1366px) {
+    /*top down*/
+}
+
+
+/*TABLET*/
+
+@media only screen and (max-width:936px) {
+    .wrapper {
+        max-width: 650px;
+        min-width: 600px;
+        margin: auto;
+    }
+}
+
+
+/*CELULAR*/
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 450px;
+        min-width: 400px;
+        margin: auto;
+    }
+}

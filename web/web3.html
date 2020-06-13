@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situacion en Chile</title>
+    <!-- Enlace css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+    <!-- scripts -->
+    <!--jquery ajax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#show").click(function() {
+                $("p1").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#show").click(function() {
+                $("p2").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#show").click(function() {
+                $("p3").show();
+            });
+        });
+    </script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="banner"></div>
+    <header>
+        <h1>CORONA VIRUS by GRUPO 2</h1>
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <a class="navbar-brand" href="#">Menú</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qsomos.html">Quienes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web1.html">Antecedentes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web2.html">Situación Global</a></li>
+                    <li class="nav-item bg-danger"><a class="nav-link" href="web3.html">Situación en Chile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web4.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web5.html">Contacto</a></li>
+                </ul>
+                <div>
+                    <button class="btn btn-success"><a href="cierre.html">Log out</a></button>
+                </div>
+            </div>
+        </nav>
+        <div class="c-img">
+            <img src="../img/web3/corona.jpg" style="width: 100%; height: 250px">
+            <br>
+            <div class="txt">
+                <h2>Situación de COVID-19 en Chile</h2>
+            </div>
+        </div>
+    </header>
+
+    <div id="contenido">
+        <article class="table-responsive">
+            <h2 style="text-align: center;">Reporte 12 de Junio de 2020</h2>
+            <table class="table bg-primary">
+                <thead>
+                    <th>Total de casos activos</th>
+                    <th>N° casos nuevos en el último día</th>
+                </thead>
+                <tbody>
+                    <td>26.618</td>
+                    <td>6.754 totales | 6.217 con síntomas | 537 sin síntomas</td>
+                </tbody>
+            </table>
+            <table class="table bg-primary">
+                <tbody>
+                    <tr>
+                        <th>N° Total de contagiados</th>
+                        <th>Total de personas fallecidas</th>
+                        <th>Residencias Sanitarias</th>
+                    </tr>
+                    <tr>
+                        <td>160.846</td>
+                        <td>2.870</td>
+                        <td>12.310 Habitaciones | 131 Residencias </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table bg-primary">
+                <tbody>
+                    <tr>
+                        <th>N° total de exámenes realizados</th>
+                        <th>N° de exámenes realizados en las ultimas 24 hrs</th>
+                        <th>N° de pacientes conectados a ventilación mecánica invasiva</th>
+                        <th>N° de pacientes en estado crítico</th>
+                        <th>Ventiladores Disponibles</th>
+                    </tr>
+                    <tr>
+                        <td>799.776</td>
+                        <td>18.733</td>
+                        <td>1.391</td>
+                        <td>372</td>
+                        <td>310</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article class="table-responsive">
+            <h2 style="text-align: center;">Reporte Diario por Región</h2>
+            <table class="table bg-info">
+
+                <thead>
+                    <th>Región</th>
+                    <th>Totales</th>
+                    <th>Casos nuevos totales</th>
+                    <th>Nuevos con síntomas</th>
+                    <th>Nuevos sin síntomas</th>
+                    <th>Fallecidos</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Arica y Parinacota</b></td>
+                        <td> 1,011 </td>
+                        <td> 44 </td>
+                        <td> 39 </td>
+                        <td> 5 </td>
+                        <td> 10 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Tarapacá</b></td>
+                        <td> 3,823 </td>
+                        <td> 127 </td>
+                        <td> 91 </td>
+                        <td> 36 </td>
+                        <td> 48 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Antofagasta</b></td>
+                        <td> 3,885 </td>
+                        <td> 132 </td>
+                        <td> 119 </td>
+                        <td> 13 </td>
+                        <td> 65 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Atacama</b></td>
+                        <td> 413 </td>
+                        <td> 24 </td>
+                        <td> 20 </td>
+                        <td> 4 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Coquimbo</b></td>
+                        <td> 1,438 </td>
+                        <td> 93 </td>
+                        <td> 79 </td>
+                        <td> 14 </td>
+                        <td> 7 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Valparaíso</b></td>
+                        <td> 6,171 </td>
+                        <td> 306 </td>
+                        <td> 284 </td>
+                        <td> 22 </td>
+                        <td> 118 </td>
+                    </tr>
+                    <tr>
+                        <td><b>RM</b></td>
+                        <td> 129,694 </td>
+                        <td> 5,559 </td>
+                        <td> 5,174 </td>
+                        <td> 385 </td>
+                        <td> 2,468 </td>
+                    </tr>
+                    <tr>
+                        <td><b>O'Higgins</b></td>
+                        <td> 1,629 </td>
+                        <td> 77 </td>
+                        <td> 72 </td>
+                        <td> 5 </td>
+                        <td> 30 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Maule</b></td>
+                        <td> 2,691 </td>
+                        <td> 131 </td>
+                        <td> 116 </td>
+                        <td> 15 </td>
+                        <td> 19 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Ñuble</b></td>
+                        <td> 1,718 </td>
+                        <td> 45 </td>
+                        <td> 42 </td>
+                        <td> 3 </td>
+                        <td> 20 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Biobío</b></td>
+                        <td> 3,103 </td>
+                        <td> 129 </td>
+                        <td> 114 </td>
+                        <td> 15 </td>
+                        <td> 14 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Araucanía</b></td>
+                        <td> 2,579 </td>
+                        <td> 44 </td>
+                        <td> 35 </td>
+                        <td> 9 </td>
+                        <td> 35 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Los Ríos</b></td>
+                        <td> 479 </td>
+                        <td> 17 </td>
+                        <td> 14 </td>
+                        <td> 3 </td>
+                        <td> 9 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Los Lagos</b></td>
+                        <td> 1,083 </td>
+                        <td> 21 </td>
+                        <td> 14 </td>
+                        <td> 7 </td>
+                        <td> 12 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Aysén</b></td>
+                        <td> 22 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Magallanes</b></td>
+                        <td> 1,107 </td>
+                        <td> 5 </td>
+                        <td> 4 </td>
+                        <td> 1 </td>
+                        <td> 15 </td>
+                    </tr>
+                    <tr>
+                        <td><b>Total</b></td>
+                        <td> <b>160,846</b></td>
+                        <td> <b>6,754</b></td>
+                        <td> <b>6,217</b></td>
+                        <td><b>537</b></td>
+                        <td><b>2,870</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article style="text-align: center;">
+            <h2><b>Reportes Diarios</b></h2>
+            <section class="row">
+                <section class="col-4 bg-danger text-white">
+                    <h3>Reportes de Junio</h3>
+                    <p id="repor">
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/12.06.2020_Reporte_Covid19.pdf"> 12 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/11.06.2020_Reporte_Covid19.pdf"> 11 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/10.06.2020_Reporte_Covid19.pdf"> 10 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/09.06.2020_Reporte_Covid19.pdf">   9 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/08.06.2020_Reporte_Covid19.pdf">   8 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/07.06.2020_Reporte_Covid19v2.pdf">   7 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/06.06.2020_Reporte_Covid19.pdf">   6 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/05.06.2020_Reporte_Covid19.pdf">   5 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/04.06.2020_Reporte_Covid19.pdf">   4 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/03.06.2020_Reporte_Covid19.pdf">   3 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/02.06.2020_Reporte_Covid19.pdf">   2 de Junio PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/01.06.2020_Reporte_Covid19v2.pdf">   1 de Junio PDF </a></li>
+                    </p>
+                </section>
+
+                <section class="col-4 bg-warning text-white">
+                    <h3>Reportes de Mayo</h3>
+                    <p>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/31.05.2020_Reporte_Covid19.pdf">   31 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/30.05.2020_Reporte_Covid19.pdf">   30 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/29.05.2020_Reporte_Covid19.pdf">   29 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/28.05.2020_Reporte_Covid19.pdf">   28 de Mayo PDF </a></li>
+                        <li><a href="hhttps://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/27.05.2020_Reporte_Covid19.pdf">  27 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/26.05.2020_Reporte_Covid19.pdf">   26 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/25.05.2020_Reporte_Covid19.pdf">   25 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/24.05.2020_Reporte_Covid19.pdf">   24 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/23.05.2020_Reporte_Covid19.pdf">   23 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/22.05.2020_Reporte_Covid19v2.pdf"> 22 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/21.05.2020_Reporte_Covid19.pdf">   21 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/20.05.2020_Reporte_Covid19.pdf">   20 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/19.05.2020_Reporte_Covid19_.pdf">  19 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/18.05.2020_Reporte_Covid19.pdf">   18 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/17.05.2020_Reporte_Covid19.pdf">   17 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/16.05.2020_Reporte_Covid19.pdf">   16 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/15.05.2020_Reporte_Covid19.pdf">   15 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/14.05.2020_Reporte_Covid19.pdf">   14 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/13.05.2020_Reporte_Covid19.pdf">   13 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/12.05.2020_Reporte_Covid19.pdf">   12 de Mayo PDF </a></li>
+                        <li><a href="hhttps://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/11.05.2020_Reporte_Covid19.pdf">  11 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/10.05.2020_Reporte_Covid19.pdf">   10 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/09.05.2020_Reporte_Covid19.pdf">    9 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/08.05.2020_Reporte_Covid19.pdf">    8 de Mayo PDF </a></li>
+                        <li><a href="hhttps://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/07.05.2020_Reporte_Covid19.pdf">   7 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/06.05.2020_Reporte_Covid19.pdf">    6 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/05.05.2020_Reporte_Covid19.pdf">    5 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/04.05.2020_Reporte_Covid19.pdf">    4 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/03.05.2020_Reporte_Covid19.pdf">    3 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/02.05.2020_Reporte_Covid19.pdf">    2 de Mayo PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/01.05.2020_Reporte_Covid19v2.pdf">  1 de Mayo PDF </a></li>
+                    </p>
+                </section>
+
+                <section class="col-4 bg-secondary text-white">
+                    <h3>Reportes de Abril</h3>
+                    <p>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/30.04.2020_Reporte_Covid19.pdf">   30 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/29.04.2020_Reporte_Covid19.pdf">   29 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/28.04.2020_Reporte_Covid19.pdf">   28 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/27.04.2020_Reporte_Covid19.pdf">   27 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/26.04.2020_Reporte_Covid19.pdf">   26 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/25.04.2020_Reporte_Covid19.pdf">   25 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/24.04.2020_Reporte_Covid19.pdf">   24 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/23.04.2020_Reporte_Covid19.pdf">   23 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/22.04.2020_Reporte_Covid19.pdf">   22 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/21.04.2020_Reporte_Covid19.pdf">   21 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/20.04.2020_Reporte_Covid19.pdf">   20 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/19.04.2020_Reporte_Covid19.pdf">  19 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/18.04.2020_Reporte_Covid19.pdf">   18 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/17.04.2020_Reporte_Covid19.pdf">   17 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/16.04.2020_Reporte_Covid19.pdf">   16 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/15.04.2020_Reporte_Covid19.pdf">   15 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/14.04.2020_Reporte_Covid19.pdf">   14 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/13.04.2020_Reporte_Covid19.pdf">   13 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/12.04.2020_Reporte_Covid19.pdf">   12 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/11.04.2020_Reporte_Covid19.pdf">   11 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/10.04.2020_Reporte_Covid19.pdf">   10 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/09.04.2020_Reporte_Covid19v3.pdf">  9 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/08.04.2020_Reporte_Covid19.pdf">    8 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/07.04.2020_Reporte_Covid19.pdf">    7 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/06.04.2020_Reporte_Covid19.pdf">    6 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/05.04.2020_Reporte_Covid19.pdf">    5 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/04.04.2020_Reporte_Covid19.pdf">    4 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/03.04.2020_Reporte_Covid19.pdf">    3 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/02.04.2020_Reporte_Covid19.pdf">    2 de Abril PDF </a></li>
+                        <li><a href="https://cdn.digital.gob.cl/public_files/Campa%C3%B1as/Corona-Virus/Reportes/01.04.2020_Reporte_Covid19.pdf">    1 de Abril PDF </a></li>
+                    </p>
+                </section>
+            </section>
+        </article>
+        <article>
+            <h3 style="text-align: center;">NOTICIAS</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="../img/web3/noticia1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">GenoSUR abrirá fábrica de kits para toma de muestra de coronavirus en Miami</h4>
+                            <p class="card-text"> La empresa chilena de biotecnología, GenoSUR, y 7 Holdings Group (7HG), un experto proveedor de servicios logísticos estadounidense, cerraron una alianza para abrir una planta de fabricación en el condado de Miami-Dade que
+                                producirá kits portátiles de recogida de muestras y dispositivos de transporte para el SARS-CoV-2, comúnmente conocido como COVID-19, y otros virus respiratorios.
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://chilereports.cl/noticias/2020/06/12/genosur-abrir%C3%A1-f%C3%A1brica-de-kits-para-toma-de-muestra-de-coronavirus-en-miami"> Leer más </a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="../img/web3/noticia2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Autoridades de salud realizan balance a 100 días de declarada la pandemia COVID-19 en el país</h4>
+                            <p class="card-text"> El ministro de Salud, Jaime Mañalich destacó las medidas tomadas por el Gobierno para combatir la propagación del virus.
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://chilereports.cl/noticias/2020/06/11/autoridades-de-salud-realizan-balance-a-100-d%C3%ADas-de-declarada-la-pandemia-covid-19-en-el-pais"> Leer más </a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="../img/web3/noticia3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Gobierno anuncia cuarentena para Valparaíso, Viña del Mar y la amplía en la Región Metropolitana y Tarapacá</h4>
+                            <p class="card-text"> A contar de este viernes se incorporan a la medida las zonas urbanas de Pozo Almonte (Tarapacá), Melipilla, Curacaví, Til Til, San José de Maipo y la comuna de Peñaflor, en la Región Metropolitana.
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://chilereports.cl/noticias/2020/06/10/gobierno-anuncia-cuarentena-para-valparaiso-vina-del-mar-y-la-amplia-en-la-region-metropolitana-y-tarapaca"> Leer más </a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <p class="float-right ">
+            <a href="# ">Ir arriba &nbsp;</a>
+        </p>
+        <p>Copyright® by Grupo 2</p>
+    </footer>
+
+</body>
+
+</html>
